@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { NgComponentOutlet } from '@angular/common'
 import {
   ChangeDetectionStrategy,

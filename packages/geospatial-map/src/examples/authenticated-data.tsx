@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: data behind authentication. Wrap the built-in loader (`fetchGeoJson`) so GeoJSON,
 // CSV and ArcGIS sources keep working; only the request changes.
 // Task: "our indicator API needs a token". See README.md → Data that needs authentication.

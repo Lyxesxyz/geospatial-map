@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: controlled state (the host owns the complete map state) and a synchronised grid of
 // six maps. See docs/state-events-slots.md and docs/export-grid-integration.md.
 

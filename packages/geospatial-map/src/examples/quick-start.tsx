@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: the smallest useful map. One indicator layer from a GeoJSON URL, coloured by a
 // numeric property; everything else (basemap, starting view, UI) uses the defaults.
 // Task: "add a map with our indicator". See README.md → Quick start.

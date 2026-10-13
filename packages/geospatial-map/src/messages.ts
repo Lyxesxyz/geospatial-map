@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { LayerStatus, MapMessages } from './types'
 
 // All user-facing copy lives here. Pass a partial `messages` object in the map config to

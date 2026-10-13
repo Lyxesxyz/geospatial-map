@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { MapTheme, MapThemeToken } from './types'
 
 // The stylesheet (`geospatial-map.css`) is the source of truth for the look of the map.

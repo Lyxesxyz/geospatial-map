@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: your own layout from the parts, a custom popup and tooltip, and a custom part that
 // reads map state. Nothing here edits the component; parts take `className` and `placement`.
 // Task: "change the popup / move the controls / add our own panel". See README.md → Build your

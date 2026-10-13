@@ -1,10 +1,12 @@
 # Geospatial map — docs site
 
-The documentation website of the geospatial map, published at <https://lyxesxyz.github.io/react-map-component/>. It shows the guides of both folders, a gallery of examples, and the two demos. It is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Teams never copy it: the guides that travel with a folder stay in that folder, and this site renders them as they are.
+_Created by Dimitar Vashkov._
+
+The documentation website of the geospatial map, published at <https://lyxesxyz.github.io/geospatial-map/>. It shows the guides of both folders, a gallery of examples, and the two demos. It is built with [Astro](https://astro.build) and [Starlight](https://starlight.astro.build). Teams never copy it: the guides that travel with a folder stay in that folder, and this site renders them as they are.
 
 ## Pages
 
-Every path is below the base, `/react-map-component/`. The `/react/` pages come from `packages/geospatial-map/src`, the `/angular/` pages from `packages/geospatial-map-angular/src`.
+Every path is below the base, `/geospatial-map/`. The `/react/` pages come from `packages/geospatial-map/src`, the `/angular/` pages from `packages/geospatial-map-angular/src`.
 
 | Path                                  | What it is                                                        |
 | ------------------------------------- | ----------------------------------------------------------------- |
@@ -32,7 +34,7 @@ Every path is below the base, `/react-map-component/`. The `/react/` pages come 
 From the repository root:
 
 ```sh
-pnpm dev:site       # http://localhost:4321/react-map-component/
+pnpm dev:site       # http://localhost:4321/geospatial-map/
 pnpm dev:all        # in a second terminal: the demos the pages embed (React on 5173, Angular on 4200)
 pnpm build:site     # the site and both demos into apps/site/dist (links checked)
 pnpm preview:site   # serves apps/site/dist, demos included

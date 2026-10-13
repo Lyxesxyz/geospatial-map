@@ -1,5 +1,7 @@
 # Changelog
 
+_Created by Dimitar Vashkov._
+
 This folder is copied into apps rather than installed, so this file travels with it. `GEOSPATIAL_MAP_VERSION` in `version.ts` says which version your copy is.
 
 To update a copy, run the update script from a clone of the source repository. It does a three-way merge, so your own edits are kept:

@@ -1,5 +1,5 @@
 # Builds the docs site (apps/site) with both demos and publishes it to GitHub Pages, at
-# https://lyxesxyz.github.io/react-map-component/. A push to main deploys it; a pull request only
+# https://lyxesxyz.github.io/geospatial-map/. A push to main deploys it; a pull request only
 # builds it, so a broken link or a failing demo build shows before the merge.
 #
 # One-time setup: Settings → Pages → Source: GitHub Actions. The github-pages environment that

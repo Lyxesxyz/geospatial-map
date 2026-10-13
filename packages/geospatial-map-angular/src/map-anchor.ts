@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import {
   DestroyRef,
   ElementRef,

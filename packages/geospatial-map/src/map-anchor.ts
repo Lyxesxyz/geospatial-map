@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { RefObject } from 'react'
 import { useIsomorphicLayoutEffect } from './hooks'
 

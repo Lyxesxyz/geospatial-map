@@ -30,7 +30,7 @@ function setUp(command: ConfigSetup['command']) {
     config: {
       root: pathToFileURL(`${site}/`),
       srcDir: pathToFileURL(`${srcDir}/`),
-      base: '/react-map-component',
+      base: '/geospatial-map',
     },
     command,
     logger,

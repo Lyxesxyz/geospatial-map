@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { FeatureCollection } from 'geojson'
 import type OlMap from 'ol/Map.js'
 

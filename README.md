@@ -1,10 +1,12 @@
 # Geospatial map component
 
+_Created by Dimitar Vashkov._
+
 A reusable OpenLayers map for indicator pages, for **React and Angular**, with a modern [MapCN](https://www.mapcn.dev/docs)-inspired UI, Equal Earth and Web Mercator views, ArcGIS basemaps by URL, indicator data from GeoJSON, CSV, JSON or ArcGIS feature layers, declarative vector, heatmap, and raster layers, a disclaimer, legends, selection events, time playback, a responsive 3 × 2 map grid, and report-ready export.
 
 MapCN's compact floating controls, shadcn-style surfaces, and Lucide icon conventions are adapted to product-owned Shapes components. OpenLayers remains the rendering engine so Equal Earth (`EPSG:8857`) and the full source contract continue to work.
 
-The documentation site, <https://lyxesxyz.github.io/react-map-component/>, has the guides of both folders, examples with live maps, and both demos. It is built from `main`.
+The documentation site, <https://lyxesxyz.github.io/geospatial-map/>, has the guides of both folders, examples with live maps, and both demos. It is built from `main`.
 
 ## Choose React or Angular
 
@@ -17,9 +19,9 @@ Both versions are release 0.11.2 and have the same features. They share the engi
 | Icons              | `lucide-react`                                                                       | `lucide`                                                                                              |
 | The map            | `<GeospatialMap>`, or `<MapRoot>` with the parts you want                            | `<geo-map>`, or `<geo-map-root>` with the parts you want                                              |
 | Guide for the team | [`src/README.md`](./packages/geospatial-map/src/README.md), `AGENTS.md`, `docs/`     | [`src/README.md`](./packages/geospatial-map-angular/src/README.md), `AGENTS.md`, `docs/`              |
-| Guide online       | [/react/](https://lyxesxyz.github.io/react-map-component/react/)                     | [/angular/](https://lyxesxyz.github.io/react-map-component/angular/)                                  |
+| Guide online       | [/react/](https://lyxesxyz.github.io/geospatial-map/react/)                          | [/angular/](https://lyxesxyz.github.io/geospatial-map/angular/)                                       |
 | Demo               | `pnpm dev:react`, [http://127.0.0.1:5173](http://127.0.0.1:5173) (`apps/demo`, Vite) | `pnpm dev:angular`, [http://127.0.0.1:4200](http://127.0.0.1:4200) (`apps/demo-angular`, Angular CLI) |
-| Demo online        | [/demo/react/](https://lyxesxyz.github.io/react-map-component/demo/react/)           | [/demo/angular/](https://lyxesxyz.github.io/react-map-component/demo/angular/)                        |
+| Demo online        | [/demo/react/](https://lyxesxyz.github.io/geospatial-map/demo/react/)                | [/demo/angular/](https://lyxesxyz.github.io/geospatial-map/demo/angular/)                             |
 | Release notes      | [`src/CHANGELOG.md`](./packages/geospatial-map/src/CHANGELOG.md)                     | [`src/CHANGELOG.md`](./packages/geospatial-map-angular/src/CHANGELOG.md)                              |
 
 Pick the folder of your app's framework. Each folder is self-contained: you copy one, never both and never the core.
@@ -188,7 +190,7 @@ pnpm test                  # unit, SSR, portability, guide and sync tests of the
 pnpm lint
 pnpm format:check          # pnpm format fixes it
 pnpm build                 # both demos (build:react, build:angular)
-pnpm build:site            # the docs site and both demos below /react-map-component/ (links checked)
+pnpm build:site            # the docs site and both demos below /geospatial-map/ (links checked)
 pnpm test:paste            # the Angular folder pasted into fresh Angular 21 and 22 apps, built
 pnpm test:browser          # every browser project: React, Angular, Angular with zone.js, DOM parity
 ```

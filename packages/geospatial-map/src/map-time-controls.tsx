@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 import { forwardRef, useEffect, useState } from 'react'
 import type { ComponentPropsWithoutRef } from 'react'
 import { useMap, useMapIcons } from './map-context'

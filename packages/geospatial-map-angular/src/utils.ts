@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 export type ClassValue = string | false | null | undefined
 
 /** Joins class names, skipping falsy values. Swap for `clsx` + `tailwind-merge` if you use Tailwind. */

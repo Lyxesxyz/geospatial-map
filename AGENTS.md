@@ -1,5 +1,7 @@
 # Geospatial map repository: instructions for coding agents
 
+_Created by Dimitar Vashkov._
+
 This repository builds the geospatial map, a copy-paste map component (shadcn/ui style) with a React folder and an Angular folder, released together (0.11.2). This file is for work on the repository itself. The guide for an app that copied a folder travels with it: `packages/geospatial-map/src/AGENTS.md` (React) and `packages/geospatial-map-angular/src/AGENTS.md` (Angular).
 
 ## Layout
@@ -40,11 +42,11 @@ pnpm lint
 pnpm format:check   # pnpm format fixes it
 pnpm test:paste     # the Angular folder pasted into fresh Angular 21 and 22 apps, built
 pnpm build          # both demos (build:react, build:angular)
-pnpm build:site     # the docs site and both demos below /react-map-component/ (links checked)
+pnpm build:site     # the docs site and both demos below /geospatial-map/ (links checked)
 pnpm test:browser   # every project: React, Angular, Angular with zone.js, DOM parity
 ```
 
-`pnpm test:browser` starts three dev servers (React on 4173, Angular on 4174, Angular with zone.js on 4175). For one side: `pnpm test:browser:react`, `pnpm test:browser:angular` (with the zone.js project) or `pnpm test:browser:parity` (both demos, compared by `tests/browser/parity`); they set `PW_FRAMEWORK`, which picks the projects and the servers, through `scripts/playwright.mjs` (it works in the Windows command prompt too). `tests/browser/framework.spec.ts` fails a project whose server is the other demo. `pnpm dev:all` serves both demos (React on 5173, Angular on 4200). `pnpm dev:site` serves the docs site on 4321 (`http://localhost:4321/react-map-component/`); its pages embed the demos that `pnpm dev:all` serves.
+`pnpm test:browser` starts three dev servers (React on 4173, Angular on 4174, Angular with zone.js on 4175). For one side: `pnpm test:browser:react`, `pnpm test:browser:angular` (with the zone.js project) or `pnpm test:browser:parity` (both demos, compared by `tests/browser/parity`); they set `PW_FRAMEWORK`, which picks the projects and the servers, through `scripts/playwright.mjs` (it works in the Windows command prompt too). `tests/browser/framework.spec.ts` fails a project whose server is the other demo. `pnpm dev:all` serves both demos (React on 5173, Angular on 4200). `pnpm dev:site` serves the docs site on 4321 (`http://localhost:4321/geospatial-map/`); its pages embed the demos that `pnpm dev:all` serves.
 
 ## Where to look
 

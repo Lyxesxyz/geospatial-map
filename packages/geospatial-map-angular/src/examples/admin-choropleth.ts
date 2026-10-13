@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: colour admin areas by an indicator kept in a separate table. The basemap only draws
 // boundaries; to colour them, load your own boundary GeoJSON and join the values onto it. The same
 // goes for countries: `{ builtin: 'world' }` is one outline with no country codes, and the loader

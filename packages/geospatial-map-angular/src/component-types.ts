@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { TemplateRef, Type } from '@angular/core'
 import type { IconNode } from 'lucide'
 import type {

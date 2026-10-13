@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { GeospatialMap } from './geospatial-map'
 import { MapAttribution } from './map-attribution'
 import { MapBreadcrumbs } from './map-breadcrumbs'

@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { isPlatformBrowser } from '@angular/common'
 import {
   ChangeDetectionStrategy,

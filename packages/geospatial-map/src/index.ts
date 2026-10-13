@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Ready-made layouts
 export { GeospatialMap } from './geospatial-map'
 export { MapGrid } from './map-grid'

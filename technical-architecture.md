@@ -1,5 +1,7 @@
 # Geospatial Map Component — Technical Architecture
 
+_Created by Dimitar Vashkov._
+
 Status: proposed implementation baseline
 
 Related requirements: [`requirements.md`](./requirements.md)
@@ -1004,7 +1006,7 @@ The Angular harness has the same controls, labels and test ids, so the browser s
 
 ### 20.6 Docs site
 
-`apps/site` is the documentation website, built with Astro and Starlight and published to GitHub Pages at `https://lyxesxyz.github.io/react-map-component/` by `.github/workflows/docs-site.yml`. Teams never copy it. `apps/site/README.md` says how it is built; in short:
+`apps/site` is the documentation website, built with Astro and Starlight and published to GitHub Pages at `https://lyxesxyz.github.io/geospatial-map/` by `.github/workflows/docs-site.yml`. Teams never copy it. `apps/site/README.md` says how it is built; in short:
 
 - The guides stay in the folders, in plain GitHub Markdown, and travel with them. The site's guides integration copies each folder's `README.md`, `AGENTS.md`, `CHANGELOG.md` and `docs/*.md` into gitignored folders of its content before every build, with frontmatter (title, description, last commit date) and its links rewritten: to the site's own pages, or to the folder's other files on GitHub. A link that would be broken in a team's copy fails the copy.
 - The examples (`apps/site/src/data/examples.mjs`) are the demos' scenarios, embedded with `?embed` in an iframe, next to the folders' example files and the guides that explain them.
@@ -1064,7 +1066,7 @@ pnpm lint
 pnpm test
 pnpm typecheck
 pnpm build          # both demos, the Angular one with its budgets
-pnpm build:site     # the docs site (apps/site) and both demos below /react-map-component/
+pnpm build:site     # the docs site (apps/site) and both demos below /geospatial-map/
 pnpm test:paste     # the Angular folder pasted into fresh Angular 21 and 22 apps, built
 pnpm test:browser   # React, Angular, Angular with zone.js, and DOM parity
 ```

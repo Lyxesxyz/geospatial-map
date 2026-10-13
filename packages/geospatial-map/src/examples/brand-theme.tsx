@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: restyle the map to a design system with CSS (see brand-theme.css next to this file)
 // and swap some icons for this map only. Task: "make the map match our design system".
 // See README.md → Matching a design system, and docs/theming-localization.md.

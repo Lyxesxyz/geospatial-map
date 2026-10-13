@@ -17,7 +17,7 @@ import path from 'node:path'
  * @typedef {object} LinkContext
  * @property {string} from The Markdown file, relative to the folder (`docs/configuration.md`).
  * @property {string} folder The folder, relative to the repository root.
- * @property {string} base The site's base path, without a trailing slash (`/react-map-component`).
+ * @property {string} base The site's base path, without a trailing slash (`/geospatial-map`).
  * @property {string} repository The repository's URL (`https://github.com/owner/name`).
  * @property {string} branch The branch the site is built from.
  * @property {(path: string) => 'file' | 'directory' | undefined} kindOf What is at a path relative

@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type {
   ArcGISVectorTileLayerConfig,
   AttributionSpec,

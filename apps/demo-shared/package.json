@@ -1,6 +1,7 @@
 {
   "name": "geospatial-map-demo-shared",
   "version": "0.1.0",
+  "author": "Dimitar Vashkov",
   "private": true,
   "type": "module",
   "description": "Scenarios, fixtures, harness styles, themes and data shared by the React and Angular demos.",

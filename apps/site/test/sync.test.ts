@@ -15,7 +15,7 @@ import { parseMarkdown, plainText } from '../src/guides/markdown.mjs'
 import { gitLastUpdated, listPages, syncGuides, type SyncResult } from '../src/guides/sync.mjs'
 import { GithubSlugger, parseFrontmatter, repoRoot, temporaryDirectory } from './support'
 
-const base = '/react-map-component'
+const base = '/geospatial-map'
 const options = { repoRoot, base, repository, branch, siteTitle: 'Geospatial map' }
 
 type Node = { type: string; url?: string; depth?: number; children?: Node[] }

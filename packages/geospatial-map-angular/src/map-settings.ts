@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { ChangeDetectionStrategy, Component, computed, inject, input, output } from '@angular/core'
 import { injectMapActions, injectMapRuntime, injectMapStatic } from './map-context'
 import { MapIconView } from './map-icon'

@@ -1,5 +1,7 @@
 # Contributing to the Angular folder
 
+_Created by Dimitar Vashkov._
+
 This guide is for work on `packages/geospatial-map-angular` itself (it is not copied with `src/`). Read the root `AGENTS.md` and `angular-plan.md` first. The React folder, `packages/geospatial-map/src`, is the reference: every Angular part renders the same DOM as its React part.
 
 ## What exists

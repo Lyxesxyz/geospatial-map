@@ -2,6 +2,8 @@
 // the config, CSS tokens and classes, the map-* parts, or onOpenLayersMap (see AGENTS.md).
 // Edits here are the most likely to conflict when the folder is updated. This file is identical
 // in the React and Angular versions of the map.
+//
+// Geospatial map — created by Dimitar Vashkov.
 
 // The one place the engine talks HTTP: clear errors for failed requests, web pages served
 // instead of data, and errors ArcGIS reports inside successful responses.

@@ -20,7 +20,7 @@ export const frameworkStorageKey = 'starlight-synced-tabs__framework'
 /** The site's base path without a trailing slash ('' for a site at the root of its domain). */
 export const base = import.meta.env.BASE_URL.replace(/\/+$/, '')
 
-/** A page or file below the site's base: `sitePath('react/')` is `/react-map-component/react/`. */
+/** A page or file below the site's base: `sitePath('react/')` is `/geospatial-map/react/`. */
 export function sitePath(path: string): string {
   return `${base}/${path.replace(/^\/+/, '')}`
 }

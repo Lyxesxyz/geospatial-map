@@ -1,6 +1,7 @@
 {
   "name": "geospatial-map-site",
   "version": "0.1.0",
+  "author": "Dimitar Vashkov",
   "private": true,
   "type": "module",
   "engines": {

@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Helpers for end-to-end tests of pages with a map (Playwright and similar). Server-safe, with no
 // imports, so they can be used from test files without bundling the map.
 //

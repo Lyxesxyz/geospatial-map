@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { InjectionToken, inject } from '@angular/core'
 import type { Provider } from '@angular/core'
 import {

@@ -1,5 +1,7 @@
 # Geospatial map — shared core
 
+_Created by Dimitar Vashkov._
+
 This package is the single source of the framework-neutral files of the geospatial map: the OpenLayers engine, the configuration, the types, the stylesheet and a few helpers. It is not published and teams never copy it. `pnpm sync-core` copies [`src/`](./src) into each framework folder, at the same paths, as committed files:
 
 - the React folder, `packages/geospatial-map/src`;

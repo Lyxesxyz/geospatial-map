@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import { Directive, TemplateRef, inject, input } from '@angular/core'
 import type {
   MapConfigErrorContext,

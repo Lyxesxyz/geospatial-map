@@ -30,12 +30,15 @@ export default defineConfig({
       customCss: ['@fontsource-variable/inter/index.css', './src/styles/theme.css'],
       components: {
         // The landing page's hero with the live demo; the React/Angular switch above a guide's
-        // title; the sidebar's topics drawn as a switch (src/components).
+        // title; the sidebar's topics drawn as a switch; the author credit below every page
+        // (src/components).
+        Footer: './src/components/Footer.astro',
         Hero: './src/components/Hero.astro',
         PageTitle: './src/components/PageTitle.astro',
         Sidebar: './src/components/Sidebar.astro',
       },
       head: [
+        { tag: 'meta', attrs: { name: 'author', content: 'Dimitar Vashkov' } },
         // The reader's framework (React or Angular, src/components/framework-choice.ts) on <html>
         // before the page paints, so content for the other framework never flashes.
         {

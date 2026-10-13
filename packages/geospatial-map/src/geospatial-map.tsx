@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 import { forwardRef } from 'react'
 import { MapAttribution } from './map-attribution'
 import { MapBreadcrumbs } from './map-breadcrumbs'

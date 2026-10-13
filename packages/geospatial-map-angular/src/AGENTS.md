@@ -1,5 +1,7 @@
 # Geospatial map: instructions for coding agents
 
+_Created by Dimitar Vashkov._
+
 This folder is an Angular map component copied into this app (shadcn/ui style). The app owns the copy. `version.ts` says which release it is; newer releases are merged in with a script (see [Updating](#updating)). Humans start at `README.md`; this file is the short version for agents.
 
 ## Choose where a change belongs

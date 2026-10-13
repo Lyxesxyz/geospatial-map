@@ -3,7 +3,7 @@
 // changes only this file (or sets SITE_URL / SITE_BASE when building).
 
 /** The repository the guides and examples are read from. */
-export const repository = 'https://github.com/Lyxesxyz/react-map-component'
+export const repository = 'https://github.com/Lyxesxyz/geospatial-map'
 
 /** The branch the site is built from: edit and source links point at it. */
 export const branch = 'main'
@@ -12,4 +12,4 @@ export const branch = 'main'
 export const site = process.env.SITE_URL || 'https://lyxesxyz.github.io'
 
 /** The path below the origin, without a trailing slash (GitHub Pages serves a project site there). */
-export const base = (process.env.SITE_BASE || '/react-map-component').replace(/\/+$/, '')
+export const base = (process.env.SITE_BASE || '/geospatial-map').replace(/\/+$/, '')

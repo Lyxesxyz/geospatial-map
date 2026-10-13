@@ -1,0 +1,17 @@
+---
+// Starlight's `Footer`, overridden: the default footer (edit link, last updated, pagination) and the
+// author credit below it, on every page.
+import Default from '@astrojs/starlight/components/Footer.astro'
+---
+
+<Default />
+<p class="site-credit not-content">Geospatial map, created by Dimitar Vashkov.</p>
+
+<style>
+  .site-credit {
+    margin: 1.5rem auto 0;
+    text-align: center;
+    font-size: var(--sl-text-xs);
+    color: var(--sl-color-gray-3);
+  }
+</style>

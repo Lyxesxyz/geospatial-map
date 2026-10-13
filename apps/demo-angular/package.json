@@ -1,6 +1,7 @@
 {
   "name": "geospatial-map-demo-angular",
   "version": "0.1.0",
+  "author": "Dimitar Vashkov",
   "private": true,
   "type": "module",
   "scripts": {

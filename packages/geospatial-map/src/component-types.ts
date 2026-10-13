@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 import type { ComponentPropsWithoutRef, ComponentType, ReactNode } from 'react'
 import type {
   ConfigIssue,

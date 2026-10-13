@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: checking a page with a map in an end-to-end test (Playwright). The map element has
 // `data-status` (`loading`, `ready`, `error`) and `data-layer-errors` when layers failed.
 // Task: "verify the map works after my change". See AGENTS.md → Verify your change.

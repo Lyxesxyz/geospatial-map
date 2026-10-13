@@ -1,5 +1,7 @@
 # Geospatial map — Angular source package
 
+_Created by Dimitar Vashkov._
+
 This package is not published to npm. **[`src/`](./src) is the component**: a self-contained folder an Angular team copies into their app, in the style of shadcn/ui. Start with [`src/README.md`](./src/README.md); it travels with the folder and covers installation, composition, and styling. The React version is [`packages/geospatial-map`](../geospatial-map); both render the same DOM from the same engine.
 
 ```sh

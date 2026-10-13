@@ -1,5 +1,7 @@
 # Geospatial map
 
+_Created by Dimitar Vashkov._
+
 An interactive Angular map for indicator pages, delivered the way shadcn/ui delivers its components: **you copy this folder into your app and own the code**. It renders with OpenLayers in Equal Earth, Web Mercator, or the projection of your ArcGIS basemap, and it has a layer panel, legends, tooltips and popups, time playback, a disclaimer, a six-map grid, and PNG/JPEG/SVG export.
 
 - **Drop-in.** Run one install command, copy the folder, and add one stylesheet. There's no build step and no path aliases, and nothing outside this folder is imported.

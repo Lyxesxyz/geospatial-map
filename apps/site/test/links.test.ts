@@ -25,41 +25,39 @@ function context(from: string): LinkContext {
   return {
     from,
     folder: 'packages/geospatial-map/src',
-    base: '/react-map-component',
-    repository: 'https://github.com/Lyxesxyz/react-map-component',
+    base: '/geospatial-map',
+    repository: 'https://github.com/Lyxesxyz/geospatial-map',
     branch: 'main',
     kindOf: (path) => (files.has(path) ? 'file' : directories.has(path) ? 'directory' : undefined),
     routeOf: (path) => routes.get(path),
   }
 }
 
-const github = 'https://github.com/Lyxesxyz/react-map-component'
+const github = 'https://github.com/Lyxesxyz/geospatial-map'
 const fromGuide = (target: string) => siteUrlFor(target, context('docs/configuration.md'))
 const fromReadme = (target: string) => siteUrlFor(target, context('README.md'))
 
 describe('a link to another published page', () => {
   it('points at the guide’s page, with its anchor', () => {
     expect(fromGuide('./getting-started.md#short-form')).toBe(
-      '/react-map-component/react/guides/getting-started/#short-form',
+      '/geospatial-map/react/guides/getting-started/#short-form',
     )
-    expect(fromGuide('getting-started.md')).toBe(
-      '/react-map-component/react/guides/getting-started/',
-    )
+    expect(fromGuide('getting-started.md')).toBe('/geospatial-map/react/guides/getting-started/')
     expect(fromReadme('./docs/configuration.md#full-form')).toBe(
-      '/react-map-component/react/guides/configuration/#full-form',
+      '/geospatial-map/react/guides/configuration/#full-form',
     )
   })
 
   it('points at the overview for the README, the changelog and the agents’ guide', () => {
-    expect(fromGuide('../README.md#styling')).toBe('/react-map-component/react/#styling')
-    expect(fromGuide('../README.md')).toBe('/react-map-component/react/')
-    expect(fromGuide('../CHANGELOG.md')).toBe('/react-map-component/react/changelog/')
-    expect(fromReadme('./AGENTS.md#rules')).toBe('/react-map-component/react/agents/#rules')
+    expect(fromGuide('../README.md#styling')).toBe('/geospatial-map/react/#styling')
+    expect(fromGuide('../README.md')).toBe('/geospatial-map/react/')
+    expect(fromGuide('../CHANGELOG.md')).toBe('/geospatial-map/react/changelog/')
+    expect(fromReadme('./AGENTS.md#rules')).toBe('/geospatial-map/react/agents/#rules')
   })
 
   it('keeps a query', () => {
     expect(fromGuide('./getting-started.md?x=1#a')).toBe(
-      '/react-map-component/react/guides/getting-started/?x=1#a',
+      '/geospatial-map/react/guides/getting-started/?x=1#a',
     )
   })
 
@@ -126,7 +124,7 @@ describe('a broken link fails, naming the file and the link', () => {
   })
 
   it('when it starts at the root', () => {
-    expect(() => fromGuide('/react-map-component/react/')).toThrow(/starts at the root/)
+    expect(() => fromGuide('/geospatial-map/react/')).toThrow(/starts at the root/)
   })
 
   it('when the file does not exist', () => {

@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 /** What a built-in control button does when it is clicked. */
 export type MapButtonAction =
   'zoomIn' | 'zoomOut' | 'resetZoom' | 'locate' | 'layers' | 'settings' | 'fit' | 'fullscreen'

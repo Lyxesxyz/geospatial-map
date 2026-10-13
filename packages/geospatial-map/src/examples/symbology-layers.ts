@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example layer definitions: graduated bubbles, categorical points and a weighted heatmap.
 // See docs/layers-and-legends.md for every style type.
 

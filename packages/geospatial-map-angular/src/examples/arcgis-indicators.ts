@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: the team's own ArcGIS basemap (configured by URL only) with indicators from three
 // kinds of source, border overrides, and a disclaimer.
 // Task: "use our ArcGIS basemap and add indicators". See docs/layers-and-legends.md.

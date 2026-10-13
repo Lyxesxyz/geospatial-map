@@ -1,5 +1,7 @@
 # Geospatial map — source package
 
+_Created by Dimitar Vashkov._
+
 This package is not published to npm. **[`src/`](./src) is the component**: a self-contained folder the receiving team copies into their app, in the style of shadcn/ui. Start with [`src/README.md`](./src/README.md); it travels with the folder and covers installation, composition, and styling.
 
 ```sh

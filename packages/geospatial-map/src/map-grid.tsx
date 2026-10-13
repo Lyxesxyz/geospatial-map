@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 import { useMemo } from 'react'
 import type { CSSProperties } from 'react'
 import { normalizeMapConfig } from './config/normalize'

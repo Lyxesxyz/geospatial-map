@@ -2,6 +2,8 @@
 // the config, CSS tokens and classes, the map-* parts, or onOpenLayersMap (see AGENTS.md).
 // Edits here are the most likely to conflict when the folder is updated. This file is identical
 // in the React and Angular versions of the map.
+//
+// Geospatial map — created by Dimitar Vashkov.
 
 import type { ConfigIssue } from '../types'
 

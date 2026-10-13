@@ -1,5 +1,7 @@
 'use client'
 
+// Geospatial map — created by Dimitar Vashkov.
+
 import { forwardRef, useState } from 'react'
 import type { ComponentPropsWithoutRef, ComponentType, ReactNode } from 'react'
 import { mapError } from './core/errors'

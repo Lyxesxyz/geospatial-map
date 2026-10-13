@@ -1,3 +1,5 @@
+// Geospatial map — created by Dimitar Vashkov.
+
 // Example: your own layout from the parts, a custom popup and tooltip, a custom control, a legend
 // footer, and a custom part that reads map state. Nothing here edits the component; parts take
 // `class` and `placement`. Task: "change the popup / move the controls / add our own panel". See
